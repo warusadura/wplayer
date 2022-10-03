@@ -182,6 +182,7 @@
             <property name="create-folders">False</property>
             <property name="filter">file_filter</property>
             <property name="preview-widget-active">False</property>
+            <signal name="file-activated" handler="has_file" swapped="no"/>
           </object>
           <packing>
             <property name="expand">False</property>

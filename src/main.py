@@ -1,12 +1,12 @@
 # Copyright (C) 2022 Dhanuka Warusadura
 
 import sys
-import cmd
+import wplayer
 import ui
 
 def main():
     if len(sys.argv) > 1:
-        cmd.arg_parse()
+        wplayer.arg_parse()
     else:
         ui.init()
 
