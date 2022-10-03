@@ -6,7 +6,7 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
-from wplayer import execute
+from engine import execute
 
 GLADE_FILE = os.getcwd() + '/gui/gui.glade'
 
