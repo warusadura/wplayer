@@ -5,6 +5,7 @@ A Python wrapper around mplayer
 ### To execute
 
 ```
+apt-get install mplayer
 ./src/wplayer.py
 ./src/wplayer.py filename
 ```
