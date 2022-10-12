@@ -6,7 +6,7 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
-from engine import execute
+from engine import play
 
 GLADE_FILE = os.getcwd() + '/gui/gui.glade'
 
@@ -16,7 +16,7 @@ builder.add_from_file(GLADE_FILE)
 def get_file(data):
     file_chooser = builder.get_object('file_chooser')
     file_name = file_chooser.get_filename()
-    execute(file_name)
+    play(file_name)
 
 def init():
     handlers = {

@@ -14,7 +14,7 @@ def arg_parse():
     subprocess.call(['mplayer', sys.argv[1]])
     return 0
 
-def execute(file_name):
+def play(file_name):
     if file_name is None:
         return 1
     subprocess.call(['mplayer', str(file_name)])
